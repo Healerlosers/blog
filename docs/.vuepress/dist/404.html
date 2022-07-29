@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/logo.png"><title>Healer、loser</title><meta name="description" content="学习笔记">
+    <link rel="modulepreload" href="/healer/assets/app.74dde6f0.js"><link rel="modulepreload" href="/healer/assets/404.html.b85ec82f.js"><link rel="modulepreload" href="/healer/assets/404.html.265028f6.js"><link rel="prefetch" href="/healer/assets/index.html.43711301.js"><link rel="prefetch" href="/healer/assets/base.html.4f88d371.js"><link rel="prefetch" href="/healer/assets/regExp.html.77263314.js"><link rel="prefetch" href="/healer/assets/index.html.e7a6ecf5.js"><link rel="prefetch" href="/healer/assets/base.html.7eaac791.js"><link rel="prefetch" href="/healer/assets/regExp.html.eca4d57c.js"><link rel="prefetch" href="/healer/assets/404.448c2ee3.js"><link rel="prefetch" href="/healer/assets/Layout.33e822af.js">
+    <link rel="stylesheet" href="/healer/assets/style.e6408cc6.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/healer/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/healer/assets/app.74dde6f0.js" defer></script>
+  </body>
+</html>
