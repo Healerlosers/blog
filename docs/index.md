@@ -1,6 +1,6 @@
 ---
 home: true
-
+heroImage: /images/friend.gif
 heroText: 个人笔记
 tagline: 在线文档
 features:
