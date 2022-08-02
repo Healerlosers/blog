@@ -18,8 +18,16 @@ module.exports = {
         text: '个人笔记',
         children: [
           {
-            text: 'SubGroup',
+            text: '个人笔记',
             children: [
+              {
+                text: 'HTML',
+                link: '/guide/html/html',
+              },
+              {
+                text: 'CSS',
+                link: '/guide/css/selected',
+              },
               {
                 text: 'JS',
                 link: '/guide/js/regExp',
@@ -30,9 +38,29 @@ module.exports = {
       },
     ],
     sidebar: {
+      '/guide/html/': [
+        'html',
+      ],
+      '/guide/css/': [
+        'selected',
+        'import',
+        'text',
+        'boxModel',
+        'bgc',
+        'table',
+        'float',
+        'position',
+        'flex',
+        'grid',
+        'transform',
+        'transition',
+        'keyframes',
+        'media',
+        'viewport',
+      ],
       '/guide/js/': [
-        'base',  /* /foo/one.html */
-        'regExp'   /* /foo/two.html */
+        'base',
+        'regExp'
       ],
     }
   }),
@@ -43,14 +71,3 @@ module.exports = {
     }),
   ],
 }
-
-/*
-// SidebarItem
-{
-  text: '',
-    link: '/guide/js/base',
-},
-{
-  text: '正则',
-    link: '/guide/js/regExp',
-},*/
