@@ -60,6 +60,8 @@ module.exports = {
       ],
       '/guide/js/': [
         'base',
+        'operator',
+        'basicType',
         'regExp'
       ],
     }
