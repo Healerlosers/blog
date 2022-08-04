@@ -62,6 +62,11 @@ module.exports = {
         'base',
         'operator',
         'basicType',
+        'array',
+        'symbol',
+        'set',
+        'map',
+        'func',
         'regExp'
       ],
     }
