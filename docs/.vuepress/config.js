@@ -67,6 +67,8 @@ module.exports = {
         'set',
         'map',
         'func',
+        'scope',
+        'object',
         'regExp'
       ],
     }
