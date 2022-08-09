@@ -6,7 +6,7 @@ module.exports = {
   lang: 'zh-CN',
   title: 'Healer、loser',
   description: '学习笔记',
-  base: "/healer/",
+  base: "/blog/",
   head: [['link', {rel: 'icon', href: '/images/logo.png'}]],
 
   //主题
@@ -69,6 +69,9 @@ module.exports = {
         'func',
         'scope',
         'object',
+        'prototype',
+        'class',
+        'module',
         'regExp'
       ],
     }
