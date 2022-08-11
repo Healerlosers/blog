@@ -72,7 +72,12 @@ module.exports = {
         'prototype',
         'class',
         'module',
-        'regExp'
+        'regExp',
+        'promise',
+        'task',
+        'promiseCore',
+        'dom',
+        'coordinate',
       ],
     }
   }),

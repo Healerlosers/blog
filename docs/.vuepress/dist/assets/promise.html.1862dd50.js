@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-52af1538","path":"/guide/js/promise.html","title":"","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660027891000,"contributors":[{"name":"healers\u4E36loser","email":"1679864406@qq.com","commits":1}]},"filePathRelative":"guide/js/promise.md"}');export{e as data};
