@@ -32,9 +32,17 @@ module.exports = {
                 text: 'JS',
                 link: '/guide/js/regExp',
               }
-            ],
-          },
+            ]
+          }
         ],
+      },
+      {
+        text: 'Git',
+        link: '/guide/git/git',
+      },
+      {
+        text: 'Ts',
+        link: '/guide/ts/setting',
       },
     ],
     sidebar: {
@@ -78,9 +86,19 @@ module.exports = {
         'promiseCore',
         'dom',
         'coordinate',
+        'event',
+        'ajax',
+      ],
+      '/guide/git/': [
+        'git',
+      ],
+      '/guide/ts/': [
+        'setting',
+        'baseType',
       ],
     }
   }),
+  
   
   plugins: [
     activeHeaderLinksPlugin({
