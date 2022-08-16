@@ -98,6 +98,8 @@ module.exports = {
         'assertion',
         'class_interfaces',
         'generics',
+        'decorators',
+        'module',
       ],
     }
   }),

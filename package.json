@@ -11,7 +11,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
   }
 }
-
-
