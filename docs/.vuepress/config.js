@@ -15,7 +15,7 @@ module.exports = {
     navbar: [
       // 嵌套 Group - 最大深度为 2
       {
-        text: '个人笔记',
+        text: 'Web',
         children: [
           {
             text: '个人笔记',
@@ -41,7 +41,7 @@ module.exports = {
         link: '/guide/git/git',
       },
       {
-        text: 'Ts',
+        text: 'Typescript',
         link: '/guide/ts/setting',
       },
     ],
@@ -95,6 +95,9 @@ module.exports = {
       '/guide/ts/': [
         'setting',
         'baseType',
+        'assertion',
+        'class_interfaces',
+        'generics',
       ],
     }
   }),
