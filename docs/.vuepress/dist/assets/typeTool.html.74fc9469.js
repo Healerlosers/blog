@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-63d95183","path":"/guide/ts/typeTool.html","title":"","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660699112000,"contributors":[{"name":"healers\u4E36loser","email":"1679864406@qq.com","commits":1}]},"filePathRelative":"guide/ts/typeTool.md"}');export{e as data};

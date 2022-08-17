@@ -44,6 +44,28 @@ module.exports = {
         text: 'Typescript',
         link: '/guide/ts/setting',
       },
+      {
+        text: '工具',
+        children: [
+          {
+            text: '工具软件',
+            children: [
+              {
+                text: 'npm',
+                link: '/guide/tool/npm',
+              },
+              {
+                text: 'yarn',
+                link: '/guide/tool/yarn',
+              }, {
+                text: 'nvm',
+                link: '/guide/tool/nvm',
+              },
+              
+            ]
+          }
+        ],
+      },
     ],
     sidebar: {
       '/guide/html/': [
@@ -102,6 +124,11 @@ module.exports = {
         'module',
         'webpack',
         'typeTool',
+      ],
+      '/guide/tool/': [
+        'npm',
+        'yarn',
+        'nvm',
       ],
     }
   }),
