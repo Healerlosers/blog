@@ -1,5 +1,6 @@
 const {defaultTheme} = require('@vuepress/theme-default')
 const {activeHeaderLinksPlugin} = require('@vuepress/plugin-active-header-links')
+const {searchPlugin} = require('@vuepress/plugin-search')
 
 module.exports = {
   port: 3000,
@@ -8,7 +9,6 @@ module.exports = {
   description: '学习笔记',
   base: "/blog/",
   head: [['link', {rel: 'icon', href: '/images/logo.png'}]],
-
   //主题
   theme: defaultTheme({
     logo: '/images/logo.png',
@@ -100,6 +100,8 @@ module.exports = {
         'generics',
         'decorators',
         'module',
+        'webpack',
+        'typeTool',
       ],
     }
   }),
@@ -108,6 +110,17 @@ module.exports = {
   plugins: [
     activeHeaderLinksPlugin({
       // 配置项
+    }),
+    searchPlugin({
+      // 配置项
+      locales: {
+        '/': {
+          placeholder: 'Search',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+      },
     }),
   ],
 }
