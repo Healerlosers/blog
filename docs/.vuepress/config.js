@@ -112,6 +112,8 @@ module.exports = {
       // 配置项
     }),
     searchPlugin({
+      // 排除首页
+      isSearchable: (page) => page.path !== '/',
       // 配置项
       locales: {
         '/': {
