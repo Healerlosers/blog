@@ -30,7 +30,7 @@ module.exports = {
               },
               {
                 text: 'JS',
-                link: '/guide/js/regExp',
+                link: '/guide/js/base',
               }
             ]
           }
@@ -110,6 +110,7 @@ module.exports = {
         'coordinate',
         'event',
         'ajax',
+        'canvas',
       ],
       '/guide/git/': [
         'git',
